@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 1999-2016. Parallels IP Holdings GmbH. -->
+<module>
+  <id>service-plan-management</id>
+  <name>Service Plan Management Example</name>
+  <description>Add new limits and permissions to service plan</description>
+  <version>1.0</version>
+  <release>1</release>
+  <vendor>Plesk</vendor>
+  <url>http://www.plesk/com</url>
+  <plesk_min_version>17.0.11</plesk_min_version>
+</module>

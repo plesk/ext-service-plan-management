@@ -1,0 +1,8 @@
+Service plan SDK example
+
+A test extension intended to demonstrate how to add custom permissions and limits to service plan.
+
+The following techniques are demonstrated:
+* Creation of custom service plan permissions.
+* Creation of custom service plan limits.
+* Creation 2 custom buttons with access over new permission.
