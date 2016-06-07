@@ -7,6 +7,6 @@
   <version>1.0</version>
   <release>1</release>
   <vendor>Plesk</vendor>
-  <url>http://www.plesk/com</url>
+  <url>https://github.com/plesk/ext-service-plan-management</url>
   <plesk_min_version>17.0.11</plesk_min_version>
 </module>
