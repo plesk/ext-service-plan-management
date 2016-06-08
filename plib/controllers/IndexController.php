@@ -17,12 +17,12 @@ class IndexController extends pm_Controller_Action
 
     public function fakeusersAction()
     {
-        $this->view->fakeUsersLimit = $this->_domain->getLimit('fake_users');
+        $this->view->fakeUsersLimit = $this->_domain->getLimit('max_fake_users');
     }
 
     public function fakesitesAction()
     {
-        $this->view->fakeSitesLimit = $this->_domain->getLimit('fake_sites');
+        $this->view->fakeSitesLimit = $this->_domain->getLimit('max_fake_sites');
     }
 
     public function indexAction()
