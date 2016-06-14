@@ -7,8 +7,8 @@ class IndexController extends pm_Controller_Action
     public function init()
     {
         parent::init();
-	$this->_domain = $this->_getDomain();
-	$this->view->pageTitle = 'Service Plan Management Example Extension';
+        $this->_domain = $this->_getDomain();
+        $this->view->pageTitle = 'Service Plan Management Example Extension';
     }
 
     private function _getDomain()
@@ -26,14 +26,13 @@ class IndexController extends pm_Controller_Action
         $this->view->fakeSitesLimit = $this->_domain->getLimit('max_fake_sites');
     }
 
-        public function indexAction()
+    public function indexAction()
     {
         //Check that client/reseller has permission 'fake_sites' on subscription or not.
         $form = new Modules_ServicePlanManagement_Form_CreateForm();
         if ($this->getRequest()->isPost() && $form->isValid($this->getRequest()->getPost())) {
             try {
                 $values = $form->getValues();
-
                 $clientId = $values['clientId'];
                 $domainId = $values['domainId'];
                 $domain = new pm_Domain($domainId);
