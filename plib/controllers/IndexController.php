@@ -13,7 +13,7 @@ class IndexController extends pm_Controller_Action
 
     private function _getDomain()
     {
-        return new pm_Domain((int)$this->getRequest()->getParam('siteId'));
+        return new pm_Domain((int)$this->getRequest()->getParam('site_id'));
     }
 
     public function fakeusersAction()
