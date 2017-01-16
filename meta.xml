@@ -4,8 +4,9 @@
   <id>service-plan-management</id>
   <name>Service Plan Management Example</name>
   <description>Add new limits and permissions to service plan</description>
+  <category>example</category>
   <version>1.0</version>
-  <release>1</release>
+  <release>2</release>
   <vendor>Plesk</vendor>
   <url>https://github.com/plesk/ext-service-plan-management</url>
   <plesk_min_version>17.0.11</plesk_min_version>
